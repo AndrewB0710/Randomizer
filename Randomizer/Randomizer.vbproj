@@ -7,6 +7,12 @@
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
+    <ApplicationIcon>hnet.com-image.ico</ApplicationIcon>
+    <Authors>Andrew Bauer</Authors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\andre\Desktop\Projects\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

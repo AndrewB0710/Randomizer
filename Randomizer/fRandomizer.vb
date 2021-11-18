@@ -26,6 +26,8 @@
     End Sub
 
     Private Sub fRandomizer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        lblRandomName.Font = New Font("Times New Roman", 18)
+
         Me.AcceptButton = btnAdd
         btnAdd.DialogResult = System.Windows.Forms.DialogResult.OK
     End Sub
