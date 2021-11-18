@@ -30,17 +30,22 @@
         Dim myRandom As New Random
         Dim i As Integer = lstNames.Items.Count - 1
 
-        lblRandomName.Text = lstNames.Items.Item(myRandom.Next(i)).ToString
 
-        If deleteAllOfPickedItem = False Then
-            lstNames.Items.Remove(lblRandomName.Text)
-        ElseIf deleteAllOfPickedItem = True Then
-            For index = lstNames.Items.Count - 1 To 0 Step -1
-                If lstNames.Items(index) = lblRandomName.Text Then
-                    lstNames.Items.RemoveAt(index)
-                End If
-            Next
-        End If
+        Try
+            lblRandomName.Text = lstNames.Items.Item(myRandom.Next(i)).ToString
+
+            If deleteAllOfPickedItem = False Then
+                lstNames.Items.Remove(lblRandomName.Text)
+            ElseIf deleteAllOfPickedItem = True Then
+                For index = lstNames.Items.Count - 1 To 0 Step -1
+                    If lstNames.Items(index) = lblRandomName.Text Then
+                        lstNames.Items.RemoveAt(index)
+                    End If
+                Next
+            End If
+        Catch
+            MsgBox("Can not Randomly Select an empty list", 0, "Error")
+        End Try
     End Sub
 
     Private Sub fRandomizer_Load(sender As Object, e As EventArgs) Handles MyBase.Load

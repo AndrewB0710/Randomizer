@@ -52,15 +52,15 @@ Partial Class fRandomizer
         Me.Panel1.Controls.Add(Me.lblRandomName)
         Me.Panel1.Controls.Add(Me.btnRandomize)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel1.Location = New System.Drawing.Point(0, 484)
+        Me.Panel1.Location = New System.Drawing.Point(0, 592)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(273, 91)
+        Me.Panel1.Size = New System.Drawing.Size(244, 70)
         Me.Panel1.TabIndex = 7
         '
         'btnSettings
         '
         Me.btnSettings.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.btnSettings.Location = New System.Drawing.Point(205, 63)
+        Me.btnSettings.Location = New System.Drawing.Point(176, 42)
         Me.btnSettings.Name = "btnSettings"
         Me.btnSettings.Size = New System.Drawing.Size(63, 23)
         Me.btnSettings.TabIndex = 2
@@ -70,16 +70,16 @@ Partial Class fRandomizer
         'lblRandomName
         '
         Me.lblRandomName.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblRandomName.Location = New System.Drawing.Point(12, 11)
+        Me.lblRandomName.Location = New System.Drawing.Point(11, 2)
         Me.lblRandomName.Name = "lblRandomName"
-        Me.lblRandomName.Size = New System.Drawing.Size(248, 40)
+        Me.lblRandomName.Size = New System.Drawing.Size(220, 40)
         Me.lblRandomName.TabIndex = 1
         Me.lblRandomName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnRandomize
         '
         Me.btnRandomize.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.btnRandomize.Location = New System.Drawing.Point(81, 63)
+        Me.btnRandomize.Location = New System.Drawing.Point(65, 42)
         Me.btnRandomize.Name = "btnRandomize"
         Me.btnRandomize.Size = New System.Drawing.Size(109, 23)
         Me.btnRandomize.TabIndex = 0
@@ -96,16 +96,16 @@ Partial Class fRandomizer
         Me.Panel3.Controls.Add(Me.btnAdd)
         Me.Panel3.Controls.Add(Me.txtNames)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel3.Location = New System.Drawing.Point(0, 377)
+        Me.Panel3.Location = New System.Drawing.Point(0, 497)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(273, 107)
+        Me.Panel3.Size = New System.Drawing.Size(244, 95)
         Me.Panel3.TabIndex = 0
         '
         'lblQuantity
         '
         Me.lblQuantity.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.lblQuantity.AutoSize = True
-        Me.lblQuantity.Location = New System.Drawing.Point(56, 59)
+        Me.lblQuantity.Location = New System.Drawing.Point(42, 47)
         Me.lblQuantity.Name = "lblQuantity"
         Me.lblQuantity.Size = New System.Drawing.Size(53, 15)
         Me.lblQuantity.TabIndex = 6
@@ -114,7 +114,7 @@ Partial Class fRandomizer
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(20, 7)
+        Me.Label1.Location = New System.Drawing.Point(17, 3)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(64, 15)
         Me.Label1.TabIndex = 5
@@ -123,7 +123,7 @@ Partial Class fRandomizer
         'nmQuantity
         '
         Me.nmQuantity.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.nmQuantity.Location = New System.Drawing.Point(56, 77)
+        Me.nmQuantity.Location = New System.Drawing.Point(42, 65)
         Me.nmQuantity.Name = "nmQuantity"
         Me.nmQuantity.Size = New System.Drawing.Size(47, 23)
         Me.nmQuantity.TabIndex = 4
@@ -132,7 +132,7 @@ Partial Class fRandomizer
         'btnAdd
         '
         Me.btnAdd.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.btnAdd.Location = New System.Drawing.Point(109, 77)
+        Me.btnAdd.Location = New System.Drawing.Point(95, 65)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(109, 23)
         Me.btnAdd.TabIndex = 2
@@ -142,9 +142,9 @@ Partial Class fRandomizer
         'txtNames
         '
         Me.txtNames.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtNames.Location = New System.Drawing.Point(11, 25)
+        Me.txtNames.Location = New System.Drawing.Point(11, 21)
         Me.txtNames.Name = "txtNames"
-        Me.txtNames.Size = New System.Drawing.Size(249, 23)
+        Me.txtNames.Size = New System.Drawing.Size(220, 23)
         Me.txtNames.TabIndex = 1
         '
         'Panel4
@@ -153,15 +153,15 @@ Partial Class fRandomizer
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel4.Location = New System.Drawing.Point(0, 0)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(273, 0)
+        Me.Panel4.Size = New System.Drawing.Size(244, 0)
         Me.Panel4.TabIndex = 1
         '
         'btnDelete
         '
         Me.btnDelete.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.btnDelete.Location = New System.Drawing.Point(110, 348)
+        Me.btnDelete.Location = New System.Drawing.Point(90, 468)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(53, 23)
+        Me.btnDelete.Size = New System.Drawing.Size(64, 23)
         Me.btnDelete.TabIndex = 3
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
@@ -175,7 +175,7 @@ Partial Class fRandomizer
         Me.lstNames.ItemHeight = 15
         Me.lstNames.Location = New System.Drawing.Point(12, 8)
         Me.lstNames.Name = "lstNames"
-        Me.lstNames.Size = New System.Drawing.Size(249, 334)
+        Me.lstNames.Size = New System.Drawing.Size(220, 454)
         Me.lstNames.TabIndex = 0
         '
         'Panel2
@@ -189,7 +189,7 @@ Partial Class fRandomizer
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(273, 484)
+        Me.Panel2.Size = New System.Drawing.Size(244, 592)
         Me.Panel2.TabIndex = 8
         '
         'btnDeleteAll
@@ -197,7 +197,7 @@ Partial Class fRandomizer
         Me.btnDeleteAll.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btnDeleteAll.BackColor = System.Drawing.SystemColors.ControlLight
         Me.btnDeleteAll.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.btnDeleteAll.Location = New System.Drawing.Point(169, 348)
+        Me.btnDeleteAll.Location = New System.Drawing.Point(160, 468)
         Me.btnDeleteAll.Name = "btnDeleteAll"
         Me.btnDeleteAll.Size = New System.Drawing.Size(72, 23)
         Me.btnDeleteAll.TabIndex = 5
@@ -207,7 +207,7 @@ Partial Class fRandomizer
         'btnShuffle
         '
         Me.btnShuffle.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.btnShuffle.Location = New System.Drawing.Point(32, 348)
+        Me.btnShuffle.Location = New System.Drawing.Point(12, 468)
         Me.btnShuffle.Name = "btnShuffle"
         Me.btnShuffle.Size = New System.Drawing.Size(72, 23)
         Me.btnShuffle.TabIndex = 4
@@ -218,7 +218,7 @@ Partial Class fRandomizer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(273, 575)
+        Me.ClientSize = New System.Drawing.Size(244, 662)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
